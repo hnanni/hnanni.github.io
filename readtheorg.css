@@ -49,8 +49,8 @@ html{
 }
 
 body{
-    background:#edf0f2;
-    color:#404040;
+    background: #1b4f72;
+    color:#154360;
     font-family:"Lato","proxima-nova","Helvetica Neue",Arial,sans-serif;
     font-weight:normal;
     margin:0;
@@ -59,11 +59,10 @@ body{
 }
 
 #content{
-    background:#fcfcfc;
+    background:#eaf2f8;
     height:100%;
     margin-left:300px;
     /* margin:auto; */
-    max-width:800px;
     min-height:100%;
     padding:1.618em 3.236em;
 }
@@ -258,7 +257,7 @@ dl dd{
         background:rgba(0,0,0,0.05)}
 
     #content{
-        background:#fcfcfc}
+        background: #eaf2f8}
 }
 
 @media screen and (max-width: 768px){
@@ -585,7 +584,7 @@ a .fa,a #content .admonition-title,#content a .admonition-title{
 }
 
 .wy-alert-title,#content .admonition-title{
-    color:#fff;
+    color:#f;
     font-weight:bold;
     display:block;
     color:#fff;
@@ -767,7 +766,8 @@ hr{
 }
 
 #table-of-contents a:hover{
-    background-color:#4e4a4a;
+    background-color:#1b2631;
+    color: white;
     cursor:pointer}
 
 /* #text-table-of-contents { */
@@ -782,7 +782,7 @@ hr{
     overflow-x:hidden;
     overflow-y:scroll;
     height:100%;
-    background:#343131;
+    background:black;
     z-index:200;
     scrollbar-base-color: #1F1D1D;
     scrollbar-arrow-color: #b3b3b3;
@@ -817,25 +817,25 @@ ul.nav li.active ul li ul li {
 }
 
 ul.nav li.active ul li a {
-    background-color: #E3E3E3;
+    background-color:  #283747;
     color: #8099B0;
-    border-right:solid 1px #c9c9c9 !important;
+    border-right:solid 1px #5dade2 !important;
 }
 
 ul.nav li.active ul li.active a {
-    background-color: #C9C9C9;
-    color: black !important;
+    background-color: #154360;
+    color: white !important;
     font-weight: bold !important;
 }
 
 ul.nav li.active ul li.active ul li.active a {
-    color: black !important;
+    color: white !important;
     font-weight: bold !important;
     display: block !important;
 }
 
 ul.nav li.active ul li.active ul li a {
-    color: #808080 !important;
+    color: #c9c9c9 !important;
     font-weight: normal !important;
     display: block !important;
 }
@@ -855,19 +855,19 @@ ul.nav li ul li ul li ul li {
 }
 
 ul.nav li.active > a {
-    border-bottom:solid 1px #c9c9c9 !important; /* XXX Restrict it to 2nd level */
-    border-right:solid 1px #c9c9c9 !important;
+    border-bottom:solid 1px #5dade2 !important; /* XXX Restrict it to 2nd level */
+    border-right:solid 1px #5dade2 !important;
 }
 
 ul.nav li.active a {
-    color: gray !important;
+    color: white !important;
     font-weight:bold;
-    background-color: white;
+    background-color: #1f618d;
     border-right:solid 0px white !important;
 }
 
 ul.nav > li.active > a {
-    color: black !important;
+    color: white !important;
 }
 
 footer{
@@ -881,7 +881,7 @@ footer p{
     bottom:0;
     left:0;
     width:300px;
-    color:#fcfcfc;
+    color:#5dade2;
     background:#1f1d1d;
     border-top:solid 10px #343131;
     font-family:"Lato","proxima-nova","Helvetica Neue",Arial,sans-serif;
@@ -898,7 +898,7 @@ footer p{
 #postamble .date {
     font-size: 90%;
     margin-bottom: 0px;
-    color: #27AE60;
+    color: #5dade2;
 }
 
 #postamble .creator,#postamble .validation {
@@ -1004,7 +1004,7 @@ span[id*='MathJax-Span']{
     text-align:center}
 
 #footnotes{
-    border-top:1px solid #e1e4e5;
+    border-top:1px solid #ff0000;
     padding-top: 36px;
 }
 
@@ -1039,19 +1039,17 @@ h2.footnotes{
 }
 
 .todo{
-    background-color: #f29f97;
     padding: 0px 4px;
-    color: #fff;
+    color: #6ab0de;
 }
 
 .WAIT, .nilWAIT{
-    background-color: #6AB097;
+    color: #f1c40f;
 }
 
 .done{
-    background-color: #6ab0de;
     padding: 0px 4px;
-    color: #fff;
+    color:  #117a65;
 }
 
 .tag span {
