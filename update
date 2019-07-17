@@ -1,0 +1,5 @@
+cp -v ../org-html-themes/styles/readtheorg/css/htmlize.css               .
+cp -v ../org-html-themes/styles/readtheorg/css/readtheorg.css            .
+cp -v ../org-html-themes/styles/lib/js/jquery.stickytableheaders.min.js  .
+cp -v ../org-html-themes/styles/readtheorg/js/readtheorg.js              .
+
